@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #ffa17f;
+    background: -webkit-linear-gradient(to right,#00223E, #FFA17F );
+    background: linear-gradient(to right, #048dfd, hsl(16, 95%, 61%));
+}
+img {
+    width: 850px;
+    height: 450px;
+ 
+}
+#dong_ho h1{
+    position: relative;
+    color: chartreuse;
+    text-align: center;
+    font-weight:1000pt;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+
+}
+#dong_ho h2{
+    position: relative;
+    display:block;
+    color: rgb(253, 249, 0);
+    font-size: 900;
+    text-align: center;
+     margin: 10px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+}
+#dong_ho #thoi_gian{
+    display: flex;
+}
+#dong_ho #thoi_gian div{
+    position: relative;
+    margin: 0 5px;
+}
+#dong_ho #thoi_gian div span{
+    position: relative;
+    display: block;
+    width: 160px;
+    height: 120px;
+    background: #2196f3;
+    color: #fff;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    z-index: 3;
+    box-shadow: 0 0 0 1px rgba(red, green, blue, alpha);
+}
+#dong_ho #thoi_gian span:nth-child(2){
+    height: 60px;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    z-index: 2;
+    box-shadow:none;
+    background:  rgb(87, 243, 147);
+    text-transform: uppercase;
+}
+#dong_ho #thoi_gian div:last-child span {
+    background:  rgb(87, 243, 147);
+}
+#dong_ho #thoi_gian div:last-child span:nth-child(2) {
+    background: #2196f3;
+}
+/* phản chiếu đối tượng */
+#dong_ho #thoi_gian div{
+    position: relative;
+    margin: 0 5px;
+    -webkit-box-reflect: below 10px linear-gradient(transparent, #0004);
+}
